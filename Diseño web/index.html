@@ -6,6 +6,18 @@
     <meta name="description" content="aqui va la descripcion">
     <meta name="keywords" content="aqui, palabras, clave">
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- enlazando el slider y los archivos  -->
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.slides.min.js"></script>
+    
+    <!-- nos ejecuta todo el slider  -->
+    <script>
+        $(function(){
+            $("#slideshow").slidesjs();
+        });
+    </script>
+
     <title>Diseño Web x Falcon Masters</title>
 </head>
 <body>
@@ -30,7 +42,12 @@
 
         <section id="main">
 
-            <section id="slideshow"></section>
+            <section id="slideshow">
+                <div class="slides_container">
+                    <a href="#"><img src="imagenes/slideshow/puente.jpeg" alt="1"></a>
+                    <a href="#"><img src="imagenes/slideshow/shelter.jpg" alt="1"></a>
+                </div>
+            </section>
 
             <section id="bienvenidos">
                 <article>
