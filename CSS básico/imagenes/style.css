@@ -1,0 +1,19 @@
+div{
+    background: grey;
+    width: 100%;
+}
+
+/* para centrar una imagen  */
+img{
+
+    width: 50%;
+    height: auto;
+    margin: auto;
+    display: block;
+    border-radius: 5px;
+    /* box-shadow: 5px 5px 0px black; */
+    padding: 10px;
+    border: 1px solid black;
+
+
+}

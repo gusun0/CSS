@@ -1,0 +1,25 @@
+p{
+    color: rgba(0, 0, 0, 1);
+    font-family: "Arial";
+    font-size: 1em;
+    font-weight: bold;
+    /* letter-spacing: 10px; */
+    word-spacing: 20px;
+}
+
+
+.uno{
+    text-align: left;
+    line-height: 4em;
+    text-decoration: underline;
+    /* para sombras en texto  */
+    text-shadow: 1px 1px 1px #000; 
+}
+
+.dos{
+    text-decoration: overline;
+}
+
+.tres{
+    text-transform: lowercase;
+}

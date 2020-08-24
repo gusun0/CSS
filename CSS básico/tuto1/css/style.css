@@ -1,0 +1,34 @@
+div{
+    width: 100px;
+    height: 100px;
+    background: blueviolet;
+    color: white;
+    font-size: 30px;
+    /* float: left; */
+}
+
+img{
+    float: left;
+}
+
+.clear{
+    clear: both;
+}
+
+
+/* .caja-padre{
+    width: 500px;
+    height: 500px;
+    background: black;
+    position: relative
+} */
+
+/* static, fixed, relative, absolute, float => left, right */
+
+.caja{
+    position: static;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 20px;
+}

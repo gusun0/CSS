@@ -1,0 +1,300 @@
+@import url(normalize.css);
+@import url(fuentes.css);
+
+
+
+/* --- ESTILOS GENERALES --- */
+body{
+    background: #2d2d2d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{  text-decoration: none; color: white;}
+a:hover{text-decoration: underline;}
+
+#wrap{
+    width: 960px;
+    margin: auto;
+    /* para que cuando usemos float left no cambie   */
+    clear: both;
+}
+
+
+
+/* --- HEADER --- */
+
+header{
+    width: 100%;
+    float: left;
+   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+1,e4e0e0+100 */
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 1%, #e4e0e0 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ffffff 1%,#e4e0e0 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ffffff 1%,#e4e0e0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e4e0e0',GradientType=0 ); /* IE6-9 */
+
+box-shadow: 0px 3px 5px #000;
+-moz-box-shadow: 0px 3px 5px #000;
+-webkit-box-shadow: 0px 3px 5px #000;
+
+}
+
+#subheader{
+    width: 960px;
+    margin: auto;
+}
+
+#logotipo{
+    float: left;
+    width: 300px;
+    padding: 10px 0px;
+}
+
+#logotipo a{
+    font-family: sourcesans-light;
+    font-size: 50px;
+    color: black;
+}
+
+#logotipo a:hover{
+    text-decoration: none;
+}
+
+/* --- MENU --- */
+
+/* para mandar el menu del lado derecho  */
+header #subheader nav{
+    float: left;
+    width: 660px;
+    padding: 30px 0;
+    text-align: right;
+}
+
+
+
+header #subheader nav ul li{
+   display: inline;
+   font-family:sourcesans-light;
+}
+
+header #subheader nav ul li a{
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+
+header #subheader nav ul li a:hover{
+    color: #fff;
+    background:#1798af;
+    text-decoration: none;
+    
+}
+
+
+/* MAIN   */
+
+#main{
+    width: 100%;
+    margin: 20px 0 0 0;
+    float: left;
+}
+
+
+/* SLIDESHOW */
+#slideshow{
+    width: 920px;
+    height: 260px;
+    float: left;
+    background: black;
+    border: 20px solid white;
+    margin-bottom: 10px;
+}
+
+/* BIENVENIDOS  */
+#bienvenidos{
+    width: 920px;
+    float: left;;
+    padding: 20px;
+   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#46793a+2,2d4c1e+100 */
+background: #46793a; /* Old browsers */
+background: -moz-linear-gradient(top,  #46793a 2%, #2d4c1e 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #46793a 2%,#2d4c1e 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #46793a 2%,#2d4c1e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#46793a', endColorstr='#2d4c1e',GradientType=0 ); /* IE6-9 */
+
+    margin: 20px 0px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 0px 2px 2px black;
+        -moz-box-shadow: 0px 2px 2px black;
+        -webkit-box-shadow: 0px 2px 2px black;
+}
+
+
+#bienvenidos article ul li{
+    list-style: none;
+}
+
+#bienvenidos article h2{
+    font-family: sourcesans-light;
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#bienvenidos article{
+    color: #fff;
+    line-height: 27px;
+}
+
+
+/* CONTENIDO  */
+#contenido{
+    width: 700px;
+    float: left;
+}
+
+#contenido article{
+    float: left;
+    margin-bottom: 20px;
+}
+
+#contenido article .titulo{
+    font-size: 22px;
+    font-family: sourcesans;
+    color: #fff;
+}
+
+#contenido article .fecha{
+    font-size: 14px;
+    color: #1798af;
+    margin-bottom: 5px;
+}
+
+#contenido article .thumb{
+    width: 220px;
+    height: 150px;
+    float: left;
+    margin: 0px 10px 10px 0px;
+}
+
+#contenido article p{
+    color: #8c8c88;   
+    font-size:14px;
+    text-align: justify;
+    line-height:27px;
+}
+
+
+/* SIDEBAR  */
+aside{
+    width: 220px;
+    float: left;
+    margin-left:20px;
+    background: #4d78b3;
+    padding: 10px 10px 0px 10px;
+    border-radius: 5px;
+        -moz-border-radius: 5px; 
+        -webkit-border-radius: 5px;
+    box-shadow: 0px 2px 2px black;
+        -moz-box-shadow: 0px 2px 2px black;
+        -webkit-box-shadow: 0px 2px 2px black;
+}
+
+
+aside .widget{
+    margin-bottom: 10px;
+    float: left;
+
+}
+
+
+aside .widget > h3{
+    background: #fff;
+    color:#4d78f3;
+    width: 220px;
+    padding: 10px 0;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+aside .widget a {
+    color: #fff;
+}
+
+aside .widget ul li{
+    margin-bottom: 5px;
+    list-style: none;
+    text-decoration: none;
+}
+
+aside .widget img{
+    width: 220px;
+}
+
+
+/* FOOTER  */
+footer{
+    width: 100%;
+    float: left;
+    clear:both;
+    box-shadow: 0px 2px 2px black;
+        -moz-box-shadow: 0px 2px 2px black;
+        -webkit-box-shadow: 0px 2px 2px black;
+    border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2f2f2f+3,242424+100 */
+background: #2f2f2f; /* Old browsers */
+background: -moz-linear-gradient(top,  #2f2f2f 3%, #242424 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #2f2f2f 3%,#242424 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #2f2f2f 3%,#242424 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f2f2f', endColorstr='#242424',GradientType=0 ); /* IE6-9 */
+
+    
+}
+
+
+footer section{
+    width: 440px;
+    float: left;
+    padding: 20px;
+}
+
+footer #acerca-de{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    text-align: justify;
+    line-height: 20px;
+}
+
+footer #acerca-de h3{
+    font-family: sourcesans-light;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+footer #redes-s > div{
+    width:210px;
+    height:60px;
+    float:left;
+    background: orange;
+    /* margin-right: 1px;
+    margin-bottom: 1px; */
+
+    opacity: 0.7;
+}
+
+footer #redes-s > div a{
+    width: 220px;
+    height: 60px;
+    display: inline-block;
+}

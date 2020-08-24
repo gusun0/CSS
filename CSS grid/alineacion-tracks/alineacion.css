@@ -1,0 +1,15 @@
+.contenedor{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3,150px);
+    grid-template-rows: repeat(3,150px);
+    height: 700px;
+
+
+    /* centrar contentido de forma horiztonal  */
+    justify-content: space-evenly;
+
+
+    /* de forma vertical  */
+    align-content: space-between;
+}

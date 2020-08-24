@@ -1,0 +1,46 @@
+a{
+    font-size:20px;
+    text-decoration: none;
+    margin: 10px 20px;
+    display: inline-block;
+    background: blueviolet;
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 0px 5px 0px black;
+}
+
+
+a:hover{
+    box-shadow: 0px 2px 0px black;
+    color: black;
+}
+
+a:active{
+    box-shadow: none;
+    background: orangered;
+}
+
+
+
+/* links que no han sido visitados 
+a:link{
+    color: green;
+    font-size: 2em;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: pink;
+    font-size: 1em;
+    background: black;
+    
+}
+
+lo que pasa cuando hacemos el click  
+a:active{
+   background: orange;
+}
+
+a:visited{
+    background: green;
+} */

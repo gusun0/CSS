@@ -1,0 +1,29 @@
+.contenedor{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: 200px 100px 200px;
+
+
+
+    /* para los elemntos que son del grid implicito */
+
+    grid-auto-columns: 100px;
+    grid-auto-rows: 100px;
+
+    /* dense es para posicionarlos de forma automatica  */
+    grid-auto-flow: column dense;
+    /* grid-auto-columns: 200px; */
+
+}
+
+.contenedor .span-2{
+    grid-column: span 2;
+    background: orange;
+}
+
+
+.contenedor .span-3{
+    grid-column: span 3;
+    background: blueviolet;
+}

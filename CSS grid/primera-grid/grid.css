@@ -1,0 +1,6 @@
+.contenedor{
+ display: grid;
+ grid-template-columns: 200px 400px 500px;
+ grid-template-rows: 150px 300px;
+ gap: 20px;
+}

@@ -1,0 +1,15 @@
+.contenedor{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,200px);
+
+    /* formato horizontal  */
+    justify-items: center;
+
+    /* formato vertical  */
+    align-items: start;
+
+
+    /* para elementos individuales se usa justify-self y align-self  */
+}
