@@ -271,11 +271,11 @@ footer #acerca-de{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     color: white;
-    text-align: justify;
+    text-align: justify;    
     line-height: 20px;
 }
 
-footer #acerca-de h3{
+footer #acerca-de h3{   
     font-family: sourcesans-light;
     font-size: 20px;
     color: white;
@@ -283,18 +283,71 @@ footer #acerca-de h3{
 }
 
 footer #redes-s > div{
-    width:210px;
+    width:220px;
     height:60px;
     float:left;
     background: orange;
     /* margin-right: 1px;
     margin-bottom: 1px; */
 
-    opacity: 0.7;
+    opacity: 0.5;
 }
 
 footer #redes-s > div a{
     width: 220px;
     height: 60px;
     display: inline-block;
+}
+
+footer #redes-s .email{
+    background:url(../imagenes/correo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    
+}
+
+footer #redes-s .twitter{
+    background:url(../imagenes/twitter.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+ 
+}
+
+footer #redes-s .youtube{
+    background:url(../imagenes/youtube.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+footer #redes-s .facebook{
+    background:url(../imagenes/facebook.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+       
+}
+
+footer #redes-s > div a{
+    margin: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer #redes-s > div:hover{
+    opacity: 1;
+}
+
+#copyright{
+    float: left;
+    width: 960px;
+    margin: 10px 0;
+}
+
+#copyright p{
+    text-align: center;
+    font-size: 14px;
+    color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
 }
